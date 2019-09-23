@@ -2,15 +2,12 @@
 
 Chat com Firebase
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+| Método | Rota | Retorno |
+| --- | --- | --- |
+| Buscar todos os produtos | http://127.0.0.1:8080/products | Retorna todos os produtos |
+| Buscar os produtos disponíveis | http://127.0.0.1:8080/products?available=true | Retorna todos os produtos disponíveis |
+| Buscar os produtos indisponíveis | http://127.0.0.1:8080/products?available=false | Retorna todos os produtos indisponíveis |
+| Buscar um produto | http://127.0.0.1:8080/products/{ID} | Retorna o produto com id passado no parâmetro |
+  
+  
+  # Teste
